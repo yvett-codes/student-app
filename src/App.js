@@ -1,10 +1,15 @@
 import logo from './logo.svg';
+import StudentList from './components/StudentList';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Ada's Class</h1>
+        <main>
+          <StudentList/>
+        </main>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
