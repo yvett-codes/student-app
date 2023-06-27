@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import StudentList from './components/StudentList';
+import ClassInfo from './components/ClassInfo';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <h1>Ada's Class</h1>
         <main>
           <StudentList/>
+          <ClassInfo/>
         </main>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
